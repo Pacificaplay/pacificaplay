@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>PACÍFICA PLAY</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/estilos.css">
+	<link rel="stylesheet" type="text/css" href="styles/fuentes.css">
+	<link rel="stylesheet" type="text/css" href="styles/estilos_hamburguesa.css">
+	<link rel="shortcut icon" href="images/favicon.png">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bodymovin.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<header>
+		<img src="images/logo1.png" id="logo">
+		<div id="hora"><script>
+			var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+			var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+			var f=new Date();
+			document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+		</script></div>
+		<img src="images/titulo_pagina.png" id="titulo">
+		<img src="images/youtube.png" class="redes" id="youtube">
+		<img src="images/spotify.png" class="redes">
+		<img src="images/twitter.png" class="redes" id="twitter">
+		<img src="images/fb.png" class="redes">
+		<form class="searchform">
+			<input type="text" value="Buscar..." onfocus="if (this.value == 'Buscar...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Buscar...';}"/>
+			<input type="button" value="Ir"/>
+		</form>
+	</header>
+	<nav id="menu">
+		<ul>
+			<div id="conf_menu"><a href="index.html"><li class="botones" id="inicio"><span id="icon-inicio" class="span_menu"></span>Inicio</li></a>
+			<a href="pages/editorial.html"><li class="botones" id="editorial"><span id="icon-editorial" class="span_menu"></span>Formulario</li></a>
+			<a href="pages/video.html"><li class="botones" id="video"><span id="icon-video" class="span_menu"></span>Vídeo</li></a>
+			<a href="pages/playlist.html"><li class="botones" id="pacificapl"><span id="icon-playlist" class="span_menu"></span>#PacíficaPlayList</li></a>
+			<a href="pages/galeria.html"><li class="botones" id="galeria"><span id="icon-galeria" class="span_menu"></span>Audio</li></a>
+			<a href="pages/mejorcon.html"><li class="botones" id="mejorcon"><span id="icon-mejorcon" class="span_menu"></span>#MejorConAudifonos</li></a>
+			</div>
+		</ul>
+	</nav>
+
+<!-- ******** Menú Hamburguesa - Inicio *********-->
+
+	<div class="menu_bar">
+		<a href="#" class="bt-menu"><span id="icon-menu"></span></a>
+		<center><img src="images/logo_hamburguesa.png" id="logo_hamburguesa"></center>
+
+	</div>
+	<nav class="menu_hamburguesa">
+		<ul id="ul_hamburguesa">
+			<li><form class="searchform_h">
+			<input type="text" value="Buscar..." onfocus="if (this.value == 'Buscar...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Buscar...';}"/>
+			<input type="button" value="Ir"/>
+			</form></li>
+			<li class="li_hamburguesa"><a href="index.html" class="a_hamburguesa"><span id="icon-inicio" class="span_hamburguesa"></span>Inicio</a></li>
+			<li class="li_hamburguesa"><a href="pages/editorial.html" class="a_hamburguesa"><span id="icon-editorial" class="span_hamburguesa"></span>Formulario</a></li>
+			<li class="li_hamburguesa"><a href="pages/video.html" class="a_hamburguesa"><span id="icon-video" class="span_hamburguesa"></span>Vídeo</a></li>
+			<li class="li_hamburguesa"><a href="pages/playlist.html" class="a_hamburguesa"><span id="icon-playlist" class="span_hamburguesa"></span>#PacíficaPlayList</a></li>
+			<li class="li_hamburguesa"><a href="pages/galeria.html" class="a_hamburguesa"><span id="icon-galeria" class="span_hamburguesa"></span>Audio</a></li>
+			<li class="li_hamburguesa"><a href="pages/mejorcon.html" class="a_hamburguesa"><span id="icon-mejorcon" class="span_hamburguesa"></span>#MejorConAudífonos</a></li>
+			<li class="li_hamburguesa"><a href="https://www.facebook.com/VIICongresoComunicacionEstrategica/" class="a_hamburguesa"><span id="icon-facebook" class="span_hamburguesa"></span>Facebook</a></li>
+			<li class="li_hamburguesa"><a href="https://twitter.com/UdeMedellin_" class="a_hamburguesa"><span id="icon-twitter" class="span_hamburguesa"></span>Twitter</a></li>
+			<li class="li_hamburguesa"><a href="https://www.youtube.com/user/CPTVUdeM" class="a_hamburguesa"><span id="icon-youtube" class="span_hamburguesa"></span>Youtube</a></li>
+			<li class="li_hamburguesa"><a href="https://open.spotify.com/user/12176506302/playlist/7EkfjMetdD7AMdTUF4fg05" class="a_hamburguesa"><span id="icon-spotify" class="span_hamburguesa"></span>Spotify</a></li>
+		</ul>
+	</nav>
+
+<!-- ******** Menú Hamburguesa - Final *********-->
+
+	
+	<section id="seccioneditorial">
+		<h1 id="editorial2">FORMULARIO</h1>
+		<center><div id="formulario">
+			<a id="foxyform_embed_link_322424" href="http://es.foxyform.com/">foxyform</a>
+			<script type="text/javascript">
+			(function(d, t){
+   			var g = d.createElement(t),
+       		s = d.getElementsByTagName(t)[0];
+   			g.src = "http://es.foxyform.com/js.php?id=322424&sec_hash=8298d3849c9&width=350px";
+   			s.parentNode.insertBefore(g, s);
+			}(document, "script"));
+		</script>
+		</div></center>
+	</section>
+	<section id="seccionvideo">
+		<h2 id="video2">VÍDEO</h2>
+		<video width="200" height="120" preload controls id="src_video">
+			<source src="video/video.webm" type="video/webm">
+			<source src="video/video.mp4" type="video/mp4">
+			<source src="video/video.ogg" type="video/ogg">
+		</video>
+	</section>
+	<aside>
+		<img id="imgaside" src="images/aside.png">
+	</aside>
+	<section id="seccionmejorcon">
+		<h2 id="mejorcon2">#PACÍFICAPLAYLIST</h2>
+		<iframe id="playlist" src="https://open.spotify.com/embed/album/5RlQ9S1MYXzEEZdc8BCxgY" width="200" height="120" frameborder="0" allowtransparency="true"></iframe>
+	</section>
+	<section id="seccionanimacion">
+		<iframe src="video/animacion.html" id="animacion"></iframe>
+	</section>
+	
+	<section id="secciongaleria">
+		<h2 id="galeria2">AUDIO</h2>
+		<audio width="200" height="120" preload controls id="src_audio">
+			<source src="audio/audio.mp3" type="audio/mp3">
+			<source src="audio/audio.wav" type="audio/wav">
+			<source src="audio/audio.ogg" type="audio/ogg">
+		</audio>
+	</section>
+	<footer>
+		<section id="contacto">
+			<h4>CONTÁCTANOS</h4>
+			<h4>Dirección: Calle 28 #84-195</h4>
+			<h4>Celular: 3146593185</h4>
+			<h4>e-mail: nataliabprada@gmail.com</h4>
+		</section>
+		<nav>
+			<ul id="menu2">
+				<a class="botones2" href="index.html"><li id="inicio3">Inicio</li></a>
+				<a class="botones2" href="pages/editorial.html"><li id="editorial3">Formulario</li></a>
+				<a class="botones2" href="pages/video.html"><li id="video3">Vídeo</li></a>
+				<a class="botones2" href="pages/playlist.html"><li id="pacificapl3">#PacíficaPlayList</li></a>
+				<a class="botones2" href="pages/galeria.html"><li id="galeria3">Audio</li></a>
+				<a class="botones2" href="pages/mejorcon.html"><li id="mejorcon3">#MejorConAudifonos</li></a>
+			</ul>
+		</nav>
+		<section id="logo2">
+			<img src="images/logo_circulo.png">
+		</section>
+		<section id="derechos">
+			<h5>PACÍFICA PLAY 2017 Todos los derechos reservados</h5>
+			<h5>Ley de Protección de Datos Personales (Habeas Data)</h5>
+		</section>
+	</footer>
+</body>
+</html>
