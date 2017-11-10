@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../styles/estilos_pages.css">
+	<link rel="stylesheet" type="text/css" href="../styles/fuentes_pages.css">
+	<link rel="shortcut icon" href="../images/favicon.png">
+	<title>VÍDEO</title>
+</head>
+<body>
+	<header>
+		<img src="../images/logo1.png" id="logo">
+		<div id="hora"><script>
+			var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+			var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+			var f=new Date();
+			document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+		</script></div>
+		<img src="../images/titulo_pagina.png" id="titulo">
+		<img src="../images/youtube.png" class="redes" id="youtube">
+		<img src="../images/spotify.png" class="redes">
+		<img src="../images/twitter.png" class="redes" id="twitter">
+		<img src="../images/fb.png" class="redes">
+		<a href="#" id="buscar"><img src="../images/cajabusqueda.png"></a>
+	</header>
+	<nav id="menu">
+		<ul>
+			<a href="../index.html"><li class="botones" id="inicio">Inicio</li></a>
+			<a href="editorial.html"><li class="botones" id="editorial">Editorial</li></a>
+			<a href="mejorcon.html"><li class="botones" id="mejorcon">#MejorConAudifonos</li></a>
+			<a href="video.html"><li class="botones" id="video">Vídeo</li></a>
+			<a href="galeria.html"><li class="botones" id="galeria">Galería</li></a>
+			<a href="playlist.html"><li class="botones" id="pacificapl">#PacíficaPlayList</li></a>
+		</ul>
+	</nav>
+	<section>
+	<img src="../images/logosvideo.png" id="logosvideo">
+	</section>
+	<aside>
+		<img src="../images/aside.png">
+	</aside>
+	<section id="videoyoutube">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/3v27OUn0gl0" frameborder="0" allowfullscreen></iframe>
+	</section>
+	<section id="parrafovideo">
+	<p>Sembrador de vida, es un documental que propone una nueva interacción con el medio ambiente, descubriendo una alternativa al caos de la ciudad. Una alimentación sana y un nuevo estilo de vida rodeado de buena música pacífica y relajante. Una escapatoria a la monotonía de la ciudad, alejándose del conflicto, de los químicos, la contaminación visual y auditiva, encontrándose con una vida pacífica.</p>
+	</section>
+	<footer>
+		<section id="contacto">
+			<h4>CONTÁCTANOS</h4>
+			<h4>Dirección: Calle 28 #84-195</h4>
+			<h4>Celular: 3146593185</h4>
+			<h4>e-mail: nataliabprada@gmail.com</h4>
+		</section>
+		<nav>
+			<ul id="menu2">
+				<a class="botones2" href="../index.html"><li id="inicio3">Inicio</li></a>
+				<a class="botones2" href="editorial.html"><li id="editorial3">Editorial</li></a>
+				<a class="botones2" href="mejorcon.html"><li id="mejorcon3">#MejorConAudifonos</li></a>
+				<a class="botones2" href="video.html"><li id="video3">Vídeo</li></a>
+				<a class="botones2" href="galeria.html"><li id="galeria3">Galería</li></a>
+				<a class="botones2" href="playlist.html"><li id="pacificapl3">#PacíficaPlayList</li></a>
+			</ul>
+		</nav>
+		<section id="logo2">
+			<img src="../images/logo_circulo.png">
+		</section>
+		<section id="derechos">
+			<h5>PACÍFICA PLAY 2017 Todos los derechos reservados</h5>
+			<h5>Ley de Protección de Datos Personales (Habeas Data)</h5>
+		</section>
+	</footer>
+</body>
+</html>
