@@ -1,0 +1,53 @@
+#hora{
+	font-family: tahoma;
+	font-size: 12px;
+	color: #3F3F3F;
+}
+.botones{
+	font-size: 18px;
+	font-family: tahoma;
+	color: #3F3F3F;
+}
+.botones:hover{
+	color: #DBD0CE;
+}
+#parrafoeditorial{
+	font-family: tahoma;
+	color: #0C1F51;
+	font-size: 20px;
+	text-align: left;
+}
+#parrafomejorcon{
+	font-family: tahoma;
+	color: #0C1F51;
+	font-size: 20px;
+}
+#parrafovideo{
+	font-family: tahoma;
+	color: #0C1F51;
+	font-size: 20px;
+}
+#contacto{
+	font-size: 16px;
+	font-family: tahoma;
+	color: #3F3F3F;
+	font-weight: normal;
+}
+.botones2{
+	font-size: 16px;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #3F3F3F;
+}
+.botones2:hover{
+	font-size: 16px;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #DBD0CE;
+}
+#derechos{
+	font-size: 16px;
+	font-family: tahoma;
+	color: #3F3F3F;
+	font-weight: normal;
+}

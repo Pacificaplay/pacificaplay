@@ -1,0 +1,177 @@
+#hora{
+	font-family: tahoma;
+	font-size: 0.75em;
+	color: #3F3F3F;
+}
+.botones{
+	font-size: 1.125em;
+	font-family: tahoma;
+	color: #3F3F3F;
+}
+.botones:hover{
+	color: #DBD0CE;
+}
+.span_menu{
+	color: #3F3F3F;
+}
+.searchform{
+	font-size: 0.75em;
+	font-family: tahoma;
+	color: #3F3F3F;
+}
+.menu_hamburguesa{
+	font-size: 1.125em;
+	font-family: tahoma;
+	color: #3F3F3F;
+}
+#disfruta{
+	font-family: tahoma;
+	font-size: 1.875em;
+	color: #FCF5D4;
+}
+#numeral{
+	font-family: tahoma;
+	font-style: italic;
+	color: #FCF5D4;
+	font-size: 1.125em;
+}
+#editorial2{
+	font-family: tahoma;
+	font-size: 1.25em;
+	color: #FCF9EF;
+	font-weight: normal;
+}
+#parrafo1{
+	font-family: tahoma;
+	font-size: 1em;
+}
+#leermas1{
+	font-family: tahoma;
+	font-size: 0.9375em;
+	color: #FCF9EF;
+	font-weight: normal;
+}
+#video2{
+	font-family: tahoma;
+	font-size: 0.9375em;
+	color: #FCF9EF;
+	font-weight: normal;
+}
+#leermas2{
+	font-family: tahoma;
+	font-size: 0.75em;
+	color: #FCF9EF;
+	font-weight: normal;
+}
+#mejorcon2{
+	font-family: tahoma;
+	font-size: 0.9375em;
+	color: #FCF9EF;
+	font-weight: normal;
+}
+#parrafo2{
+	font-family: tahoma;
+	font-size: 0.9375em;
+}
+#galeria2{
+	font-family: tahoma;
+	font-size: 0.9375em;
+	color: #FCF9EF;
+	font-weight: normal;
+}
+#vermas{
+	font-family: tahoma;
+	font-size: 0.75em;
+	color: #FCF9EF;
+	font-weight: normal;
+}
+#contacto{
+	font-size: 1em;
+	font-family: tahoma;
+	color: #3F3F3F;
+	font-weight: normal;
+}
+.botones2{
+	font-size: 1em;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #3F3F3F;
+}
+.botones2:hover{
+	font-size: 1em;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #DBD0CE;
+}
+#derechos{
+	font-size: 1em;
+	font-family: tahoma;
+	color: #3F3F3F;
+	font-weight: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ar65so');
+  src:  url('../fonts/icomoon.eot?ar65so#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ar65so') format('truetype'),
+    url('../fonts/icomoon.woff?ar65so') format('woff'),
+    url('../fonts/icomoon.svg?ar65so#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[id^="icon-"], [id*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#icon-inicio:before {
+  content: "\e901";
+}
+#icon-editorial:before {
+  content: "\e905";
+}
+#icon-galeria:before {
+  content: "\e90e";
+}
+#icon-mejorcon:before {
+  content: "\e910";
+}
+#icon-video:before {
+  content: "\e913";
+}
+#icon-buscar:before {
+  content: "\e986";
+}
+#icon-menu:before {
+  content: "\e9bd";
+}
+#icon-playlist:before {
+  content: "\ea15";
+}
+#icon-facebook:before {
+  content: "\ea91";
+}
+#icon-spotify:before {
+  content: "\ea94";
+}
+#icon-twitter:before {
+  content: "\ea96";
+}
+#icon-youtube:before {
+  content: "\ea9d";
+}
+#lupa{
+	color: #ADA4AF;
+	}

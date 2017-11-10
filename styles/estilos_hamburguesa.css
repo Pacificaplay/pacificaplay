@@ -1,0 +1,231 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.menu_bar {
+	display:none;
+}
+
+header {
+	width: 100%;
+}
+
+.menu_hamburguesa{
+	background:#023859;
+	z-index:1000;
+	max-width: 1000px;
+	width:95%;
+	margin:20px auto;
+}
+
+.ul_hamburguesa{
+	list-style:none;
+}
+
+.li_hamburguesa{
+	display:inline-block;
+	position: relative;
+}
+
+.li_hamburguesa:hover {
+	background:#E6344A;
+}
+.searchform_h:hover {
+	background:#E6344A;
+}
+
+.a_hamburguesa{
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+
+.span_hamburguesa{
+	margin-right:10px;
+}
+
+.li_hamburguesa:hover .children {
+	display:block;
+}
+
+@media screen and (min-width: 420px) and (max-width: 919px) {
+	body {
+		padding-top:55px;
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		padding-top: 0px;
+		background: #FCF9EF;
+	}
+	#logo_hamburguesa{
+		padding-top: 10px;
+	}
+	.menu_bar .bt-menu {
+		display: block;
+		float: left;
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #ADA4AF;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.searchform_h{
+		padding-left: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size: 15px;
+	}
+	.menu_bar span {
+		float: right;
+		font-size: 35px;
+	}
+
+	.menu_hamburguesa{
+		width: 50%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+
+	.li_hamburguesa{
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	.a_hamburguesa{
+		display: block;
+	}
+}
+
+@media only screen and (min-width:420px)and (max-width:619px) {
+	body {
+		padding-top:55px;
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		padding-top: 0px;
+		background: #FCF9EF;
+	}
+	#logo_hamburguesa{
+		padding-top: 10px;
+	}
+	.menu_bar .bt-menu {
+		display: block;
+		float: left;
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #ADA4AF;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.searchform_h{
+		padding-left: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size: 15px;
+	}
+	.menu_bar span {
+		float: right;
+		font-size: 35px;
+	}
+
+	.menu_hamburguesa{
+		width: 65%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+
+	.li_hamburguesa{
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	.a_hamburguesa{
+		display: block;
+	}
+}
+@media only screen and (max-width:419px){
+	body {
+		padding-top:55px;
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		padding-top: 0px;
+		background: #FCF9EF;
+	}
+	#logo_hamburguesa{
+		width: 75%;
+		height: auto;
+		padding-top: 15px;
+	}
+	.menu_bar .bt-menu {
+		display: block;
+		float: left;
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #ADA4AF;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.searchform_h{
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 15px;
+	}
+	.menu_bar span {
+		float: right;
+		font-size: 35px;
+	}
+
+	.menu_hamburguesa{
+		width: 90%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+
+	.li_hamburguesa{
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	.a_hamburguesa{
+		display: block;
+		padding: 10px;
+	}
+	
+}
